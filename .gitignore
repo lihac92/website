@@ -1,0 +1,191 @@
+
+# # Игнорировать временные файлы Visual Studio, результаты сборки и
+# # файлы, созданные популярными надстройками Visual Studio.
+
+# Пользовательские файлы
+* .suo
+* .user
+* .sln.docstates
+
+# Построить результаты
+[ Dd ] ebug /
+[ Dd ] ebugPublic /
+[ Rr ] легкость /
+х64 /
+построить /
+дом /
+[ Bb ] в /
+[ Оо ] BJ /
+
+# Рослин кеш каталогов
+* .ide /
+
+# Результаты теста MSTest
+[ Tt ] est [ Rr ] esult * /
+[ Bb ] uild [ Ll ] ог. *
+
+# NUNIT
+* .VisualState.xml
+TestResult.xml
+
+# Построить результаты проекта ATL
+[ Dd ] ebugPS /
+[ Rr ] eleasePS /
+dlldata.c
+
+* _i.c
+* _p.c
+* _i.h
+* .ilk
+* .meta
+* .obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* .log
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+* .svclog
+* .scc
+* .css
+# Chutzpah Тестовые файлы
+_Chutzpah *
+
+# Файлы кеша Visual C ++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .cachefile
+
+# Visual Studio профилировщик
+* .psess
+* .vs /
+* .vsp
+* .vspx
+
+# TFS 2012 Local Workspace
+$ tf /
+
+# Инструментарий автоматизации навигации
+* .gpState
+
+# ReSharper - это надстройка для кодирования .NET
+_ReSharper * /
+* . [ Rr ] e [ Ss ] Харпер
+* .DotSettings.user
+
+# JustCode - надстройка для кодирования .NET
+.JustCode
+
+# TeamCity - это надстройка для сборки
+_TeamCity *
+
+# DotCover - инструмент покрытия кода
+* .dotCover
+
+# NCrunch
+_NCrunch_ *
+, * crunch * .local.xml
+
+# MightyMoose
+* ммм *
+АвтоТест.Нет /
+
+# Веб-верстак (sass)
+.sass-cache /
+
+# Installshield выходная папка
+[ Ee ] xpress /
+
+# DocProject - надстройка генератора документации
+DocProject / buildhelp /
+DocProject / Help / * .HxT
+DocProject / Help / * .HxC
+DocProject / Help / * .hhc
+DocProject / Help / * .hhk
+DocProject / Help / * .hhp
+DocProject / Help / Html2
+DocProject / Help / html
+
+# Click-Once каталог
+опубликовать /
+
+# Опубликовать веб-вывод
+* . [ Pp ] ublish.xml
+* .azurePubxml
+# # TODO: Прокомментируйте следующую строку, если хотите проверить
+# # настройки веб-развертывания, но учтите, что они будут содержать незашифрованные
+# # пароли
+# * .pubxml
+
+# NuGet Packages Directory
+пакеты / *
+# # TODO: Если инструмент, который вы используете, требует repositories.config
+# # раскомментируйте следующую строку
+# ! packages / repositories.config
+
+# Включите папку "build /" в папке NuGet Packages, так как
+# Пакеты NuGet используют его для целей MSBuild.
+# Эта строка должна быть после игнорирования папки сборки
+# (и папка пакетов, если строка выше не закомментирована)
+! пакеты / сборка /
+
+# Windows Azure Build Output
+CSX /
+* .build.csdef
+
+# Каталог пакета приложения для Магазина Windows
+AppPackages /
+
+# Другие
+sql /
+* .Cache
+ClientBin /
+[ Ss ] tyle [ Cc ] op. *
+~ $ *
+* ~
+* .dbmdl
+* .dbproj.schemaview
+* .pfx
+* .publishsettings
+node_modules /
+
+# RIA / Silverlight проекты
+Generated_Code /
+
+# Резервное копирование и отчет файлов от преобразования старого файла проекта
+# до более новой версии Visual Studio. Резервные файлы не нужны,
+# потому что у нас есть мерзавец ;-)
+_UpgradeReport_Files /
+Резервное копирование * /
+UpgradeLog * .XML
+UpgradeLog * .htm
+
+# Файлы SQL Server
+* .mdf
+* .ldf
+
+# Бизнес-аналитические проекты
+* .rdl.data
+* .bim.layout
+* .bim_ * .settings
+
+# Microsoft Fakes
+FakesAssemblies /
+
+# LightSwitch сгенерированные файлы
+GeneratedArtifacts /
+_Pvt_Extensions /
+ModelManifest.xml
